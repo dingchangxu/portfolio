@@ -118,17 +118,6 @@ body {
     text-align: center;
     color: white;
     width: 100%; 
-    
-    animation: middle 2s;
-    -webkit-animation: middle 2s;
-    transition-delay: 2s;
-    -webkit-transition-delay: 2s;
-    -webkit-transition-duration: 1s;
-    -webkit-transition-timing-function: linear;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-    transition: all .4s linear;
-    -webkit-transition: all .4s linear;
 }
 
 @keyframes middle {
@@ -309,8 +298,7 @@ body {
     position: absolute;
     top: 1.5rem;
     left: 1rem;
-    animation: logo 4s infinite;
-    -webkit-animation: logo 4s infinite;
+
 }
 
 #photos {
