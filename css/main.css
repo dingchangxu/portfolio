@@ -68,7 +68,8 @@ body {
 .masthead {
     /*position: fixed;*/
     text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
     background-color: black;
     width: 100%;
     opacity: 0.7;
@@ -113,45 +114,12 @@ body {
     left: 0;
     font-size: 2rem;
     top: 1%;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
     font-weight: 700;
     text-align: center;
     color: white;
     width: 100%; 
-}
-
-@keyframes middle {
-    0% {
-        transform: rotate(0deg);
-        color: red;
-    }
-    25% {
-        color: yellow;
-    }
-    50% {
-        color: blue;
-    }
-    100% {
-        transform: rotate(360deg);
-        color: green;
-    }
-}
-
-@-webkit-keyframes middle {
-    0% {
-        -webkit-transform: rotate(0deg);
-        color: red;
-    }
-    25% {
-        color: yellow;
-    }
-    50% {
-        color: blue;
-    }
-     100% {
-        -webkit-transform: rotate(360deg);
-         color: green;
-    }
 }
 
 .nav-label {
@@ -228,39 +196,6 @@ body {
     text-align: center;
 }
 
-.box1,
-.box2,
-.box3,
-.box4 {
-  width: 100%;
-  transition: all 500ms linear;
-  -webkit-transition: all 500ms linear;
-  opacity: 1;
-    text-align: center;
-    color: #ebd10a;
-    padding: .75rem;
-}
-
-.js-btn-show1, 
-.js-btn-show2, 
-.js-btn-show3, 
-.js-btn-show4 {
-    opacity: 1;
-    color: #0088C3;
-}
-
-.btn-show1,
-.btn-show2,
-.btn-show3,
-.btn-show4 {
-    width: 10rem;
-    border-radius: 30px;
-    height: 2rem;
-    font-size: 1rem;
-    color: #0088C3;
-    background-color: #ebd10a;
-    margin: 1.75rem;
-}
 
 .btn-show1:hover,
 .btn-show2:hover,
@@ -303,7 +238,7 @@ body {
 
 #photos {
     background-color: black;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     width: auto;
     padding: 11.5rem;
