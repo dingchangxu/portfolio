@@ -99,7 +99,7 @@ body {
     background-color: #ebd10a;
     color: #fff;
 }
-
+12p 28 
 .middle:hover {
     color: black; 
 }
@@ -110,7 +110,7 @@ body {
     font-size: 2rem;
     top: 1%;
     font-family: 'Roboto Condensed', sans-serif;
-    text-shadow: 4px 4px 4px #aaa;
+    text-shadow: 2px 2px 2px #aaa;
     font-weight: 700;
     text-align: center;
     //**color: white;**//
@@ -120,13 +120,14 @@ body {
 .myself {
     position: absolute;
     left: 0;
-    font-size: 1.5rem;
-    top: 1%;
+    font-size: .75rem;
+    top: 5%;
     font-family: 'Roboto Condensed', sans-serif;
-    text-shadow: 4px 4px 4px #aaa;
+    text-shadow: 2px 2px 2px #aaa;
     font-weight: 700;
     text-align: center;
     width: 100%; 
+    color: white;
 
 }
 
@@ -202,8 +203,8 @@ body {
 
 .boxes {
     text-align: center;
-    font-family:   font-family: 'Pacifico', sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
     color: white;
 }
 
@@ -266,15 +267,32 @@ body {
     
 }
 
+.footer {
+    position: absolute;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
 @media only screen and (min-width: 10em) {
 .logo {
     margin-top: -1rem; 
 } 
-    
+
+.myself {
+    top: 5.25rem;
+}      
 .middle {
     margin-left: auto;
     margin-right: auto;
-    top: 1%; 
+    top: 2.5%; 
+    color: white;
+    position: absolute;
+    left: 1;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%; 
 }
 }
 @media only screen and (min-width: 20em) {
@@ -286,11 +304,15 @@ body {
 .logo {
     margin-top: -1rem; 
 }
+
+.myself {
+    top: 6.75rem;
+}   
     
 .middle {
-    margin-left: auto;
-    margin-right: auto;
-    top: 2%;  
+    top: 2.8%;
+    font-size: 1.5rem;
+    color: red;
 }   
 }
 
@@ -303,14 +325,16 @@ body {
 .logo {
     margin-top: -1rem;  
 }
-       
+    
+.myself {
+    top: 8.75rem;
+    font-size: 1.5rem;
+}     
 .middle {
-    color: white;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 3%;      
-}
+    top: 2.5%;
+    font-size: 3rem;
+    color: pink;
+}         
 }
 
 @media only screen and (min-width: 38em) {
@@ -320,13 +344,14 @@ body {
 }   
     
 .middle {
+    top: 5.5%;
+    font-size: 4.5rem;
     color: white;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 13%; 
-    font-size: 2rem;
 } 
+.myself {
+    top: 12rem;
+    font-size: 1.5rem;
+}  
 }
 
 @media only screen and (min-width: 45em) {
@@ -338,39 +363,27 @@ body {
 .social {
     margin-right: 1rem;
 }
+
+.myself {
+    top: 15rem;
+    font-size: 1.5rem;
+} 
     
 .middle {
-    color: white;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 18%; 
-    font-size: 3rem;
-}  
+    top: 6%;
+    font-size: 6rem;
+    color: green;
+} 
 }
     
 @media only screen and (min-width: 60em) {
     
- .middle {
-    color: white;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 29%; 
-    font-size: 3rem;
-}
+
 }
 
 @media only screen and (min-width: 70em) {
 
-.middle {
-    color: white;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 34%; 
-    font-size: 5rem;
-}
+
 }   
     
 @media only screen and (min-width: 80em) { 
