@@ -128,9 +128,20 @@ body {
     text-align: center;
     width: 100%; 
     color: white;
-
 }
 
+.i1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 2px #aaa;
+    font-weight: 400;
+
+}
+.i2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 2px #aaa;
+    font-weight: 300;
+
+}
 .nav-label {
     padding: .5rem;
     top: .5rem;
@@ -268,11 +279,18 @@ body {
 }
 
 .footer {
-    position: absolute;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-weight: 300;
+    background-color: black;
+    
+}
+
+.icon {
+    text-decoration: none;
+    width: 2em;
+	display: inline;
 }
 
 @media only screen and (min-width: 10em) {
@@ -282,7 +300,8 @@ body {
 
 .myself {
     top: 5.25rem;
-}      
+}
+    
 .middle {
     margin-left: auto;
     margin-right: auto;
@@ -295,6 +314,7 @@ body {
     width: 100%; 
 }
 }
+
 @media only screen and (min-width: 20em) {
 
 .nav {
