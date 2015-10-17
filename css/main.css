@@ -191,6 +191,14 @@ body {
 	display: inline;
 }
 
+.btt { 
+	color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-size: .75rem;
+	font-weight: 400;
+    list-style: none;
+}
+
 @media only screen and (min-width: 10em) {
 .logo {
     margin-top: -1rem; 
