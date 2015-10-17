@@ -99,23 +99,8 @@ body {
     background-color: #ebd10a;
     color: #fff;
 }
-12p 28 
-.middle:hover {
-    color: black; 
-}
 
-.middle {
-    position: absolute;
-    left: 0;
-    font-size: 2rem;
-    top: 1%;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-shadow: 2px 2px 2px #aaa;
-    font-weight: 700;
-    text-align: center;
-    //**color: white;**//
-    width: 100%; 
-}
+
 
 .myself {
     position: absolute;
@@ -140,76 +125,6 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     text-shadow: 2px 2px 2px #aaa;
     font-weight: 300;
-
-}
-.nav-label {
-    padding: .5rem;
-    top: .5rem;
-}
-
-.nav {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    background-color: black;
-    display: none;
-    right: 0;
-    top: 100%;
-    width: 10em;
-    text-align: center;
-    position: absolute;
-}
-
-.nav a {
-  display: block;
-  padding: 0.5em;
-  text-decoration: none;
-  color: white;
-}
-
-.nav a:hover {
-  background-color: #333;
-  color: #fff;
-}
-
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-  font-size: 1.25rem;
-  display: inline-block;
-  width: 40px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%;
-}
-
-.nav-check:checked ~ .nav-label {
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
 }
 
 .boxes {
@@ -218,7 +133,6 @@ body {
     font-weight: 300;
     color: white;
 }
-
 
 .btn-show1:hover,
 .btn-show2:hover,
@@ -231,32 +145,11 @@ body {
     margin: 0;
 }
 
-@keyframes logo {
-    0% {
-        transform: rotate(0deg);
-    }
-     
-     100% {
-        transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes logo {
-    0% {
-        -webkit-transform: rotate(0deg);
-    }
-    
-     100% {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
 .logo {
     width: 2rem;
     position: absolute;
     top: 1.5rem;
     left: 1rem;
-
 }
 
 #photos {
@@ -296,24 +189,13 @@ body {
 @media only screen and (min-width: 10em) {
 .logo {
     margin-top: -1rem; 
-} 
+}
 
 .myself {
-    top: 5.25rem;
-}
-    
-.middle {
-    margin-left: auto;
-    margin-right: auto;
-    top: 2.5%; 
+    top: 2.8%;
+    font-size: 1rem;
     color: white;
-    position: absolute;
-    left: 1;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 100%; 
-}
-}
+}  
 
 @media only screen and (min-width: 20em) {
 
@@ -329,7 +211,7 @@ body {
     top: 6.75rem;
 }   
     
-.middle {
+.myself {
     top: 2.8%;
     font-size: 1.5rem;
     color: red;
