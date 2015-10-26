@@ -92,11 +92,9 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-}
-
-.blackbox {
-    opacity: 1;
+    opacity: 9;
     transition: all 1s linear;
+    color: #ebd10a;
 }
 
 .front {
@@ -104,15 +102,13 @@ body {
     color: #fff;
 }
 
-
-
 .myself {
     position: absolute;
     left: 0;
     font-size: .75rem;
     top: 5%;
     font-family: 'Roboto Condensed', sans-serif;
-    text-shadow: 2px 2px 2px #aaa;
+    text-shadow: .75px .75px .75px #aaa;
     font-weight: 700;
     text-align: center;
     width: 100%; 
@@ -136,13 +132,6 @@ body {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    color: white;
-}
-
-.btn-show1:hover,
-.btn-show2:hover,
-.btn-show3:hover,
-.btn-show4:hover {
     color: white;
 }
 
@@ -173,7 +162,46 @@ body {
 
 .photo {
     width: 100%;
-    
+    opacity: .4;
+}
+
+.photo:hover {
+    opacity: 1;
+}
+
+.photo:active {
+    top: 1px;
+    opacity: .1;
+}
+
+.box1 {
+    color: white;
+    text-align: center;
+}          
+
+.box1:hover {
+    top: -1px;
+    text-shadow: rgba(6,7,0,1) .2px .2px .5px;
+}
+
+.box2 {
+    color: white;
+    text-align: center;
+}          
+
+.box2:hover {
+    top: -1px;
+    text-shadow: rgba(6,7,0,1) .2px .2px .5px;
+}
+
+.box3 {
+    color: white;
+    text-align: center;
+}          
+
+.box3:hover {
+    top: -1px;
+    text-shadow: rgba(6,7,0,1) .2px .2px .5px;
 }
 
 .footer {
@@ -181,8 +209,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-weight: 300;
-    background-color: black;
-    
+    background-color: black; 
 }
 
 .icon {
