@@ -45,6 +45,11 @@ body {
     overflow: hidden;
 }
 
+.p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+
 .wrapper {
     height: 100vh;
     overflow-x: hidden;
@@ -63,8 +68,8 @@ body {
     /*background: url("../image/bg.jpg")*/
     no-repeat center /cover;
     padding-top: 65.67%;
-    -webkit-transform: translateZ(-1px) scale(2);
-    transform: translateZ(-1px) scale(2);
+    -webkit-transform: translateZ(-1px) scale(2.02);
+    transform: translateZ(-1px) scale(2.02);
     position: relative;
     top: calc(((100vh - 65.67vw) / 4) * -2);
 }
