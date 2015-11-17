@@ -105,6 +105,8 @@ body {
 .front {
     background-color: #ebd10a;
     color: #fff;
+    position: relative;
+    z-index: 1000;
 }
 
 .myself {
