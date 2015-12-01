@@ -173,15 +173,12 @@ body {
 
 .photo {
     width: 100%;
-    /**opacity: .4;**/
     -webkit-width: 100%;
-    /**-webkit-opacity: .4;**/
+    -o-width: 100%;
+    -moz-width: 100%;
+
 }
 
-.photo:hover {
-   /** -webkit-opacity: 1;
-    opacity: 1;**/
-}
 
 .photo:active {
     -webkit-opacity: 1;top: 1px;
@@ -191,10 +188,13 @@ body {
 }
 
 .box1 {
-    -webkit-color: white;
-    -webkit-text-align: center;
     color: white;
     text-align: center;
+    -webkit-color: white;
+    -webkit-text-align: center;
+    -o-color: white;
+    -moz-text-align: center;
+    
 }          
 
 .box1:hover {
@@ -202,27 +202,10 @@ body {
     text-shadow: rgba(6,7,0,1) .2px .2px .5px;
     -webkit-top: -1px;
     -webkit-text-shadow: rgba(6,7,0,1) .2px .2px .5px;
+    -o-top: -1px;
+    -moz-text-shadow: rgba(6,7,0,1) .2px .2px .5px;
 }
 
-.box2 {
-    color: white;
-    text-align: center;
-}          
-
-.box2:hover {
-    top: -1px;
-    text-shadow: rgba(6,7,0,1) .2px .2px .5px;
-}
-
-.box3 {
-    color: white;
-    text-align: center;
-}          
-
-.box3:hover {
-    top: -1px;
-    text-shadow: rgba(6,7,0,1) .2px .2px .5px;
-}
 
 .footer {
     text-align: center;
