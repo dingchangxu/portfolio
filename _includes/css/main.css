@@ -6,7 +6,6 @@
 
 html {
     box-sizing: border-box;
-    overflow: hidden;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -42,7 +41,6 @@ body {
 
 body {
     margin: 0;
-    overflow: hidden;
 }
 
 .p {
@@ -50,30 +48,45 @@ body {
     font-weight: 300;
 }
 
-.wrapper {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    -webkit-perspective: 1px;
-    perspective: 1px;
-}
-
-.parallax-group {
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
 .back {
     background: url("../image/bg.jpg")
     no-repeat center /cover;
     padding-top: 65.67%;
     position: relative;
-    top: calc(((100vh - 65.67vw) / 4) * -2);
-    transform: translateZ(-1px) scale(2.02);
-    -webkit-transform: translateZ(-1px) scale(2.02);
-    -o-z-index: translateZ(-1px) scale(2.02);
-    -moz-z-index: translateZ(-1px) scale(2.02);
+}
+
+@supports (transform-style: preserve-3d) {
+  
+    html {
+        overflow: hidden;
+    }
+    
+    body {
+        overflow: hidden;
+    }
+    
+    .back {
+        top: calc(((100vh - 65.67vw) / 4) * -2);
+        transform: translateZ(-1px) scale(2.02);
+        -webkit-transform: translateZ(-1px) scale(2.02);
+        -o-z-index: translateZ(-1px) scale(2.02);
+        -moz-z-index: translateZ(-1px) scale(2.02);
+    }
+
+    .parallax-group {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+    
+    .wrapper {
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        -webkit-perspective: 1px;
+        perspective: 1px;
+    }
+    
 }
 
 .first {
