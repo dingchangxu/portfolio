@@ -68,10 +68,20 @@ body {
     background: url("../image/bg.jpg")
     no-repeat center /cover;
     padding-top: 65.67%;
-    -webkit-transform: translateZ(-1px) scale(2.02);
-    transform: translateZ(-1px) scale(2.02);
     position: relative;
     top: calc(((100vh - 65.67vw) / 4) * -2);
+    transform: translateZ(-1px) scale(2.02);
+    -webkit-transform: translateZ(-1px) scale(2.02);
+    -o-z-index: translateZ(-1px) scale(2.02);
+    -moz-z-index: translateZ(-1px) scale(2.02);
+}
+
+.first {
+    z-index: 1000;
+    -webkit-z-index: 1000;
+    -o-z-index: 1000;
+    -moz-z-index: 1000;   
+    
 }
 
 .masthead {
@@ -107,6 +117,10 @@ body {
     color: #fff;
     position: relative;
     z-index: 1000;
+    -webkit-z-index: 1000;
+    -o-z-index: 1000;
+    -moz-z-index: 1000;
+
 }
 
 .myself {
@@ -169,6 +183,9 @@ body {
     height: auto;
     margin: 0;
     padding: 0;
+    -webkit-z-index: 9999;
+    -o-z-index: 9999;
+    -moz-z-index: 9999;
 }
 
 .photo {
@@ -176,7 +193,6 @@ body {
     -webkit-width: 100%;
     -o-width: 100%;
     -moz-width: 100%;
-
 }
 
 
@@ -196,16 +212,6 @@ body {
     -moz-text-align: center;
     
 }          
-
-.box1:hover {
-    top: -1px;
-    text-shadow: rgba(6,7,0,1) .2px .2px .5px;
-    -webkit-top: -1px;
-    -webkit-text-shadow: rgba(6,7,0,1) .2px .2px .5px;
-    -o-top: -1px;
-    -moz-text-shadow: rgba(6,7,0,1) .2px .2px .5px;
-}
-
 
 .footer {
     text-align: center;
@@ -228,29 +234,6 @@ body {
 	font-weight: 400;
     list-style: none;
 }
-
-/**.skip-links {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-.skip-links a {
-	padding: 0.5em 0.75em;
-	position: absolute;
-	top: -3em;
-    background-color: #000;
-    color: #fff;
-	font-size: 1.125em;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.skip-links a:focus {
-	top: 0;
-}**/
-
-
 
 
 
@@ -291,25 +274,6 @@ body {
   -moz-transform: scale(1);
   transform: scale(1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 10em) {
 .logo {
