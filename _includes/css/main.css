@@ -113,7 +113,7 @@ body {
 }
 
 .front {
-    background-color: #ebd10a;
+    background-color: black;
     color: #fff;
     position: relative;
     z-index: 1000;
@@ -295,7 +295,7 @@ body {
 .myself {
     top: 2.8%;
     font-size: 1.5rem;
-    color: red;
+    color: white;
     line-height: 2rem;
 }   
 }
@@ -309,7 +309,7 @@ body {
 .middle {
     top: 2.5%;
     font-size: 3rem;
-    color: pink;
+    color: white;
 }         
 }
 
@@ -340,37 +340,14 @@ body {
 .middle {
     top: 6%;
     font-size: 6rem;
-    color: green;
 } 
 }
     
-@media only screen and (min-width: 60em) {
-    
+@media only screen and (min-width: 60em) {    
 
 }
  
     
 @media only screen and (min-width: 80em) { 
-}  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-.big {
-    display: none;
-    border: 6px solid red;
 }
-    
-.big:target {
-    display: block;
-}
+       
