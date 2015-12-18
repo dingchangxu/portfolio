@@ -43,9 +43,18 @@ body {
     margin: 0;
 }
 
-.p {
+.p1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    opacity: .8;
+}
+
+.appdome {
+    color: white;
 }
 
 .back {
@@ -113,7 +122,7 @@ body {
 .bbox {
     position: relative;
 }
-
+/*
 .blackbox {
     position: absolute;
     left: 0;
@@ -123,16 +132,14 @@ body {
     opacity: 9;
     transition: all 1s linear;
     color: #ebd10a;
-}
+}*/
 
 .front {
     background-color: black;
     color: #fff;
     position: relative;
     z-index: 1000;
-    -webkit-z-index: 1000;
-    -o-z-index: 1000;
-    -moz-z-index: 1000;
+    transform: translateZ(0);
 }
 
 .myself {
@@ -172,10 +179,6 @@ body {
     -webkit-color: white;
 }
 
-.p4 {
-    margin: 0;
-}
-
 .logo {
     width: 2rem;
     position: absolute;
@@ -195,9 +198,7 @@ body {
     height: auto;
     margin: 0;
     padding: 0;
-    -webkit-z-index: 9999;
-    -o-z-index: 9999;
-    -moz-z-index: 9999;
+    transform: translateZ(0);
 }
 
 .photo {
@@ -205,6 +206,7 @@ body {
     -webkit-width: 100%;
     -o-width: 100%;
     -moz-width: 100%;
+    
 }
 
 
@@ -229,7 +231,7 @@ body {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
-    font-weight: 300;
+    font-weight: 100;
     background-color: black; 
 }
 
@@ -240,11 +242,17 @@ body {
 	display: inline;
 }
 
+.icon:hover {
+    opacity: .6;
+    position: relative;
+    top: -2px;
+}
+
 .btt { 
 	color: white;
     font-family: 'Roboto Condensed', sans-serif;
 	font-size: .75rem;
-	font-weight: 400;
+	font-weight: 100;
     list-style: none;
 }
 
@@ -270,9 +278,10 @@ body {
   margin: 0;
   color: white;
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
   padding-left: 1em;
   padding-top: 1em;
+  padding-right: 1em;
   text-transform: uppercase;
   -webkit-transform: scale(0);
   -o-transform: scale(0);
