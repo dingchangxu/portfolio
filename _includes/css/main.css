@@ -340,13 +340,13 @@ body {
 
 .myself {
     top: 1.8%;
-    font-size: 1rem;
+    font-size: .75rem;
 }  
 
 .myself4 {
     position: absolute;
     left: 0;
-    font-size: 1rem;
+    font-size: .75rem;
     top: 25%;
     line-height: 1.5rem;
 }
