@@ -130,17 +130,6 @@ body {
 .bbox {
     position: relative;
 }
-/*
-.blackbox {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 9;
-    transition: all 1s linear;
-    color: #ebd10a;
-}*/
 
 .front {
     background-color: black;
@@ -350,24 +339,39 @@ body {
 }
 
 .myself {
-    top: 2.8%;
+    top: 1.8%;
     font-size: 1rem;
-    color: white;
 }  
+
+.myself4 {
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+    top: 25%;
+    line-height: 1.5rem;
+}
+    
+    
+    
 }
 
 @media only screen and (min-width: 20em) {
 
 .myself {
-    top: 6.75rem;
-}   
-    
-.myself {
-    top: 2.8%;
+    top: 1.8%;
     font-size: 1.5rem;
-    color: white;
     line-height: 2rem;
 }   
+    
+    
+.myself4 {
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+    top: 35%;
+    line-height: 1.5rem;
+}    
+    
 }
 
 @media only screen and (min-width: 25em) {
@@ -375,12 +379,14 @@ body {
 .myself {
     top: 8.75rem;
     font-size: 1.5rem;
-}     
-.middle {
-    top: 2.5%;
-    font-size: 3rem;
+}      
+    
+.myself4 {
+    top: 35%;
+    font-size: 1.5rem;
     color: white;
-}         
+}      
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -389,31 +395,51 @@ body {
     margin-top: -1rem;  
 }   
     
-.middle {
-    top: 5.5%;
-    font-size: 4.5rem;
-    color: white;
-} 
 .myself {
     top: 12rem;
     font-size: 1.5rem;
 }  
+    
+.myself4 {
+    top: 12rem;
+    font-size: 1.5rem;
+
+}       
 }
 
 @media only screen and (min-width: 45em) {
 
 .myself {
     top: 15rem;
-    font-size: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 1.25;
 } 
     
-.middle {
-    top: 6%;
-    font-size: 6rem;
-} 
+
+.myself4 {
+    position: absolute;
+    left: 0;
+    font-size: 2.5rem;
+    top: 45%;
+    line-height: 1.5;
+}    
 }
     
-@media only screen and (min-width: 60em) {    
+@media only screen and (min-width: 60em) { 
+
+.myself {
+    top: 15rem;
+    font-size: 3rem;
+    line-height: 1.25;
+} 
+    
+.myself4 {
+    position: absolute;
+    left: 0;
+    font-size: 3rem;
+    top: 45%;
+    line-height: 1.5;
+}      
 
 }
  
